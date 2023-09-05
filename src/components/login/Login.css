@@ -1,0 +1,29 @@
+#container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form-container button {
+  width: 20vw;
+  margin-top: 4vh;
+  padding: 4px 0;
+}
+
+button {
+  background-color: #00a3ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.feedback {
+  margin-top: 1vh;
+  overflow-wrap: break-word;
+  max-width: 30vw;
+}
+@media screen and (max-width: 600px) {
+  #container {
+    width: 100vw;
+  }
+}

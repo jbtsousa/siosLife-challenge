@@ -1,0 +1,16 @@
+.form-field {
+  width: 30vw;
+  text-align: left;
+}
+.form-field label {
+  display: block;
+}
+.form-field label,
+.form-field input {
+  width: inherit;
+}
+@media screen and (max-width: 600px) {
+  .form-field {
+    width: 50vw;
+  }
+}
